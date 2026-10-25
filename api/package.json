@@ -1,0 +1,22 @@
+{
+  "name": "@ledgerly/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "17.2.1",
+    "@x402/core": "2.28.0"
+  },
+  "overrides": {
+    "@x402/core": {
+      "zod": "4.6.7"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@ledgerly/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "ledgerly-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "overrides": {
+    "@x402/stellar": {
+      "@stellar/stellar-sdk": "17.2.1"
+    },
+    "@x402/core": {
+      "zod": "4.6.7"
+    }
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@stellar/stellar-sdk": "17.2.1",
+    "@x402/core": "2.28.0",
+    "@x402/stellar": "2.28.0",
+    "zod": "4.6.7"
+  }
+}
