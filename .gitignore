@@ -1,0 +1,4 @@
+node_modules/
+.env
+api/data/agents.json
+api/data/spend-log.jsonl

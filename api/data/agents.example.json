@@ -1,0 +1,8 @@
+{
+  "<sha256 hex of the lgk_ API key>": {
+    "address": "G...agent-stellar-address",
+    "owner": "owner-id",
+    "groups": [1],
+    "policy": { "perTxCap": "25", "dailyCap": "50" }
+  }
+}
